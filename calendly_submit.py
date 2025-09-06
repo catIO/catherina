@@ -16,7 +16,7 @@ def run():
         page.click("button[type='submit'] >> text=Schedule Event")
 
         # Optional: wait for confirmation (adjust text as needed)
-        page.wait_for_selector("text=Confirmed", timeout=10000)
+        # page.wait_for_selector("text=Confirmed", timeout=10000)
 
         browser.close()
 
